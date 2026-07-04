@@ -14,20 +14,6 @@
     }
   },
   {
-    "id": "project-docs",
-    "type": "config",
-    "path": ".",
-    "description": "Provides human and agent entrypoints through README.md, index.md, and agent.md.",
-    "_meta": {
-      "generated_at": "2026-07-04T11:06:09Z",
-      "ttl_days": 7,
-      "derived_from": ["README.md", "index.md", "agent.md"],
-      "fingerprint": "sha256:9a3e546a8717085473850bc84a49abc9b26097a24146899c687f1a9ea261e876",
-      "stale": false,
-      "stale_reason": null
-    }
-  },
-  {
     "id": "examples",
     "type": "test",
     "path": "examples/",

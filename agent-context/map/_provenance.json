@@ -1,12 +1,10 @@
 {
   "modules": {
-    "generated_at": "2026-07-04T11:06:09Z",
+    "generated_at": "2026-07-04T12:09:44Z",
     "ttl_days": 7,
     "derived_from": [
       "SKILL.md",
       "README.md",
-      "index.md",
-      "agent.md",
       "examples/*.md",
       "reference/*.md",
       "reference/models/**/*.md",

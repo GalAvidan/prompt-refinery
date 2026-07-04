@@ -1,0 +1,33 @@
+{
+  "ales_version": "2.0",
+  "schema_version": "2.0",
+  "project_name": "prompt-refinery",
+  "primary_language": "Markdown",
+  "description": "Refines and optimizes prompts for specific AI models by applying each model's documented best practices.",
+  "created_at": "2026-07-04T11:06:09Z",
+  "updated_at": "2026-07-04T11:06:09Z",
+  "repo_sha": "7c78c960c163db28e34d87d4f19ce52e217d0bc6",
+  "source_of_truth_order": [
+    "SKILL.md",
+    "agent.md",
+    "index.md",
+    "reference/taxonomy.md",
+    "reference/models/",
+    "reference/techniques/",
+    "reference/cross-model-matrix.md",
+    "reference/universal.md",
+    "examples/",
+    "README.md",
+    "agent-authored map entries"
+  ],
+  "task_registry": [
+    {
+      "id": "refresh-map",
+      "file": "tasks/refresh-map.task.md"
+    },
+    {
+      "id": "check-staleness",
+      "file": "tasks/check-staleness.task.md"
+    }
+  ]
+}

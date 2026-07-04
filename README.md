@@ -10,6 +10,11 @@ Previous name: `refining-prompts` (alias retained for discoverability).
 
 Point your agent's skill path to this folder. See `SKILL.md` for the full procedure, trigger phrases, and reference map.
 
+Agent entrypoints:
+
+- `index.md` — navigation map and recommended load order.
+- `agent.md` — operating contract for agents using this skill.
+
 ## Status
 
 Production-ready PoC — all reference files populated, techniques and examples included.

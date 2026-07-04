@@ -5,6 +5,8 @@ description: "Refines and optimizes a user's prompt for a specific target model 
 
 ## Quick Start
 
+For repository navigation, start with `index.md`. For agent operating boundaries, load `agent.md`.
+
 1. User provides a prompt and names (or the agent infers) the target model.
 2. Load the model-specific reference from `./reference/models/<vendor>/<model>.md`.
 3. Classify the prompt type and load matching technique files from `./reference/techniques/`.

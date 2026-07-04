@@ -10,6 +10,8 @@ Previous name: `refining-prompts` (alias retained for discoverability).
 
 Point your agent's skill path to this folder. See `SKILL.md` for the full procedure, trigger phrases, and reference map.
 
+The ALES metadata under `agent-context/` is intentionally minimal and maintained directly from the repository structure.
+
 ## Status
 
 Production-ready PoC — all reference files populated, techniques and examples included.

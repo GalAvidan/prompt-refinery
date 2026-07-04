@@ -5,7 +5,7 @@ description: "Refines and optimizes a user's prompt for a specific target model 
 
 ## Quick Start
 
-This skill refines prompts for specific AI models. To use it:
+This skill refines prompts for specific AI models by following these steps:
 
 1. User provides a prompt and names (or the agent infers) the target model.
 2. Load the model-specific reference from `./reference/models/<vendor>/<model>.md`.

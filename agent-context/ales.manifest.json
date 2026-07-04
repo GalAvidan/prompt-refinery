@@ -9,13 +9,13 @@
   "repo_sha": "b681ae3d7b1a49647f2168dcdd6f10ef22f5d66a",
   "source_of_truth_order": [
     "SKILL.md",
-    "README.md",
     "reference/taxonomy.md",
     "reference/models/",
     "reference/techniques/",
     "reference/cross-model-matrix.md",
     "reference/universal.md",
     "examples/",
+    "README.md",
     "agent-authored map entries"
   ],
   "task_registry": []

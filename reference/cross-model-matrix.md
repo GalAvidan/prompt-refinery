@@ -21,7 +21,7 @@ Quick-lookup table for the prompt-refining procedure. Find the target model → 
 | Claude Sonnet 5 | effort (default: high) | Prompt only | On by default (toggleable) | ❌ Temperature/sampling unsupported; API returns 400 | Moderate |
 | Claude Opus 4.8 | effort (start: xhigh) | Prompt only | Off (opt-in) | Supported | Fewer (steerable) |
 | Claude general (older) | effort | Prompt only | Varies | Supported | Varies |
-| GPT-5.5 | reasoning_effort (start low) | verbosity param | Built-in | N/A | Parallel tools |
+| GPT-5.5 | reasoning_effort (start low, raise as needed) | verbosity param | Built-in | N/A | Parallel tools |
 | GPT-5.4 | reasoning_effort | verbosity param | Built-in | N/A | Parallel tools |
 | GPT-5.3 Codex | reasoning_effort (med default) | N/A | Built-in | N/A | Parallel tools |
 | GPT-5.2 | reasoning_effort | N/A | Built-in | N/A | Parallel tools |
@@ -34,6 +34,8 @@ Quick-lookup table for the prompt-refining procedure. Find the target model → 
 ## Critical Do/Don't by Model
 
 Note: when this matrix says Claude Sonnet 5 returns 400 for temperature, it means the API rejects explicit temperature/sampling parameters. Use prompt instructions for variation instead.
+
+Note: when this matrix says GPT-5.5 reasoning_effort starts low, it means begin with low or medium effort and raise it only if the task needs deeper reasoning or better quality.
 
 | Model | DO | DON'T |
 |-------|-----|-------|

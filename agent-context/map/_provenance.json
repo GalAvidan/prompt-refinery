@@ -1,0 +1,25 @@
+{
+  "modules": {
+    "generated_at": "2026-07-04T12:09:44Z",
+    "ttl_days": 7,
+    "derived_from": [
+      "SKILL.md",
+      "README.md",
+      "examples/*.md",
+      "reference/*.md",
+      "reference/models/**/*.md",
+      "reference/techniques/*.md"
+    ],
+    "fingerprint": "sha256:9a3e546a8717085473850bc84a49abc9b26097a24146899c687f1a9ea261e876",
+    "stale": false,
+    "stale_reason": null
+  },
+  "apis": {
+    "generated_at": "2026-07-04T11:06:09Z",
+    "ttl_days": 7,
+    "derived_from": [],
+    "fingerprint": "sha256:cbe002a317669c6761deeee22ded0244d9f7ff2eeb89296d98ffa2cab96b0b03",
+    "stale": false,
+    "stale_reason": null
+  }
+}

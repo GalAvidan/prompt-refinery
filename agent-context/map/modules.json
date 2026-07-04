@@ -1,0 +1,86 @@
+[
+  {
+    "id": "skill-contract",
+    "type": "config",
+    "path": "SKILL.md",
+    "description": "Defines the prompt-refinery trigger phrases, workflow, prompt type taxonomy usage, output requirements, and self-verification loop.",
+    "_meta": {
+      "generated_at": "2026-07-04T11:06:09Z",
+      "ttl_days": 7,
+      "derived_from": ["SKILL.md"],
+      "fingerprint": "sha256:9a3e546a8717085473850bc84a49abc9b26097a24146899c687f1a9ea261e876",
+      "stale": false,
+      "stale_reason": null
+    }
+  },
+  {
+    "id": "project-docs",
+    "type": "config",
+    "path": "README.md",
+    "description": "Provides the minimal human entrypoint and points agents back to SKILL.md as the source of truth.",
+    "_meta": {
+      "generated_at": "2026-07-04T11:06:09Z",
+      "ttl_days": 7,
+      "derived_from": ["README.md"],
+      "fingerprint": "sha256:d4d809c126200c7f8c5fbede0d469fe53f0a19df90ab66f03f9ec3a0495b3502",
+      "stale": false,
+      "stale_reason": null
+    }
+  },
+  {
+    "id": "examples",
+    "type": "test",
+    "path": "examples/",
+    "description": "Contains numbered before and after demonstrations for one-liner, system prompt, agentic, creative, cross-model, and structured-output refinements.",
+    "_meta": {
+      "generated_at": "2026-07-04T11:06:09Z",
+      "ttl_days": 7,
+      "derived_from": ["examples/*.md"],
+      "fingerprint": "sha256:9a3e546a8717085473850bc84a49abc9b26097a24146899c687f1a9ea261e876",
+      "stale": false,
+      "stale_reason": null
+    }
+  },
+  {
+    "id": "reference-indexes",
+    "type": "library",
+    "path": "reference/",
+    "description": "Contains the technique taxonomy, universal fallback guidance, and cross-model comparison matrix used during prompt refinement.",
+    "_meta": {
+      "generated_at": "2026-07-04T11:06:09Z",
+      "ttl_days": 7,
+      "derived_from": ["reference/*.md"],
+      "fingerprint": "sha256:9a3e546a8717085473850bc84a49abc9b26097a24146899c687f1a9ea261e876",
+      "stale": false,
+      "stale_reason": null
+    }
+  },
+  {
+    "id": "model-references",
+    "type": "library",
+    "path": "reference/models/",
+    "description": "Stores vendor and model-specific prompt guidance for Anthropic, Google, Moonshot, and OpenAI targets.",
+    "_meta": {
+      "generated_at": "2026-07-04T11:06:09Z",
+      "ttl_days": 7,
+      "derived_from": ["reference/models/**/*.md"],
+      "fingerprint": "sha256:9a3e546a8717085473850bc84a49abc9b26097a24146899c687f1a9ea261e876",
+      "stale": false,
+      "stale_reason": null
+    }
+  },
+  {
+    "id": "technique-references",
+    "type": "library",
+    "path": "reference/techniques/",
+    "description": "Stores ten numbered prompt technique deep dives aligned to the taxonomy categories.",
+    "_meta": {
+      "generated_at": "2026-07-04T11:06:09Z",
+      "ttl_days": 7,
+      "derived_from": ["reference/techniques/*.md"],
+      "fingerprint": "sha256:9a3e546a8717085473850bc84a49abc9b26097a24146899c687f1a9ea261e876",
+      "stale": false,
+      "stale_reason": null
+    }
+  }
+]

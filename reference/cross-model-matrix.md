@@ -18,7 +18,7 @@ Quick-lookup table for the prompt-refining procedure. Find the target model → 
 | Model | Effort/Reasoning | Verbosity Control | Thinking | Temperature | Subagents |
 |-------|-----------------|-------------------|----------|-------------|-----------|
 | Claude Fable 5 | effort (default: high) | Prompt only | Always on (hidden) | Supported | Very ready |
-| Claude Sonnet 5 | effort (default: high) | Prompt only | On by default (toggleable) | ❌ 400 error | Moderate |
+| Claude Sonnet 5 | effort (default: high) | Prompt only | On by default (toggleable) | ❌ Temperature/sampling unsupported; API returns 400 | Moderate |
 | Claude Opus 4.8 | effort (start: xhigh) | Prompt only | Off (opt-in) | Supported | Fewer (steerable) |
 | Claude general (older) | effort | Prompt only | Varies | Supported | Varies |
 | GPT-5.5 | reasoning_effort (start low) | verbosity param | Built-in | N/A | Parallel tools |
@@ -32,6 +32,8 @@ Quick-lookup table for the prompt-refining procedure. Find the target model → 
 | Kimi (all) | None | Prompt only | N/A | Supported | N/A |
 
 ## Critical Do/Don't by Model
+
+Note: when this matrix says Claude Sonnet 5 returns 400 for temperature, it means the API rejects explicit temperature/sampling parameters. Use prompt instructions for variation instead.
 
 | Model | DO | DON'T |
 |-------|-----|-------|

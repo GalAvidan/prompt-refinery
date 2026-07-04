@@ -22,7 +22,7 @@
       "generated_at": "2026-07-04T11:06:09Z",
       "ttl_days": 7,
       "derived_from": ["README.md"],
-      "fingerprint": "sha256:9a3e546a8717085473850bc84a49abc9b26097a24146899c687f1a9ea261e876",
+      "fingerprint": "sha256:d4d809c126200c7f8c5fbede0d469fe53f0a19df90ab66f03f9ec3a0495b3502",
       "stale": false,
       "stale_reason": null
     }

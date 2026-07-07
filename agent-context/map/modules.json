@@ -1,13 +1,27 @@
 [
   {
+    "id": "agent-contract",
+    "type": "config",
+    "path": "agent.md",
+    "description": "Defines the autonomous execution boundary, safety rules, and fallback policy for prompt refinement.",
+    "_meta": {
+      "generated_at": "2026-07-07T00:00:00Z",
+      "ttl_days": 7,
+      "derived_from": ["agent.md"],
+      "fingerprint": "sha256:e2e61334e534a223dff85422616a5dd84772645880807e8d3048ba8965afbb34",
+      "stale": false,
+      "stale_reason": null
+    }
+  },
+  {
     "id": "skill-contract",
     "type": "config",
-    "path": "SKILL.md",
+    "path": "skill.md",
     "description": "Defines the prompt-refinery trigger phrases, workflow, prompt type taxonomy usage, output requirements, and self-verification loop.",
     "_meta": {
       "generated_at": "2026-07-04T11:06:09Z",
       "ttl_days": 7,
-      "derived_from": ["SKILL.md"],
+      "derived_from": ["skill.md"],
       "fingerprint": "sha256:9a3e546a8717085473850bc84a49abc9b26097a24146899c687f1a9ea261e876",
       "stale": false,
       "stale_reason": null
@@ -16,12 +30,12 @@
   {
     "id": "project-docs",
     "type": "config",
-    "path": "README.md",
-    "description": "Provides the minimal human entrypoint and points agents back to SKILL.md as the source of truth.",
+    "path": "readme.md",
+    "description": "Provides the minimal human entrypoint and points agents back to skill.md as the source of truth.",
     "_meta": {
       "generated_at": "2026-07-04T11:06:09Z",
       "ttl_days": 7,
-      "derived_from": ["README.md"],
+      "derived_from": ["readme.md"],
       "fingerprint": "sha256:d4d809c126200c7f8c5fbede0d469fe53f0a19df90ab66f03f9ec3a0495b3502",
       "stale": false,
       "stale_reason": null
